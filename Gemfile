@@ -3,12 +3,13 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.10'
 
 # Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+
 
 gem 'sqlite3'
 
 #Настройки из учебника
 group :development do
+gem 'sqlite3-ruby', :require => 'sqlite3' 
   gem 'rspec-rails', '2.6.1'
 end
 
